@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: linear-gradient(90deg, rgb(33, 243, 120), rgb(96, 245, 158), rgb(33, 243, 120));
+    background-image: url('https://marketplace.canva.com/EAFIsIL-6qo/1/0/900w/canva-wallpaper-ponsel-ungu-merah-muda-illustrasi-pemandangan-hutan-i6WDJwfVHZ8.jpg');
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.card, .con-daftar{
+    position: relative;
+    width: 320px;
+    height: auto;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    box-shadow: 0px 0px 28px 5px black;
+}
+.card h1{
+    font-family: 'Ubuntu', sans-serif; 
+    margin-top: 50px;
+}
+.card form{
+    position: relative;
+    top: 30px;
+    height: 270px;
+}
+.card label, button{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card input{
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+}
+.card input:focus{
+    background: rgba(88, 88, 88, 0.637);
+    color: white;
+}
+.card button{
+    margin: 10px auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    background: none;
+    color: white;
+}
+.card button:hover{
+    background: rgba(88, 88, 88, 0.637);
+}
+.card p{
+    text-align: center;
+    margin: 0px;
+}
+.card a{
+    color: black;
+}
+.sosmed{
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;   
+    /* bottom: 20px; */
+    top: 0px;
+    margin: auto;
+}
+.sosmed ul{
+    display: flex;
+    align-items: center;
+}
+.sosmed li{
+    list-style: none;
+    font-size: 50px;
+    color: black;
+    margin: 10px;
+    margin-top: 0px;
+}
+.con-daftar{
+    padding: 10px;
+}
+.con-daftar h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+}
+.con-daftar form{
+    margin-top: 20px;
+    
+}
+.con-daftar label, button{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+}
+.con-daftar input{
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+}
+.con-daftar input::-webkit-outer-spin-button,
+.con-daftar input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.con-daftar input:focus{
+    background: rgba(88, 88, 88, 0.637);
+    color: white;
+}
+.con-daftar button{
+    margin: 10px auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    background: none;
+    color: white;
+}
+.con-daftar button:hover{
+    background: rgba(88, 88, 88, 0.637);
+}
+
+
+/* =================================== */
+/* ===================================== */
+
+.lupa{
+    position: relative;
+    width: 320px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.473);
+}
+.lupa input{
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border-radius: 6px;
+    background: none;
+    outline: none;
+    font-size: 20px;
+}
+.lupa input::-webkit-outer-spin-button,
+.lupa input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.lupa button{
+    margin: 20px auto;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.lupa button:hover{
+    background: rgba(88, 88, 88, 0.637);
+
+}
